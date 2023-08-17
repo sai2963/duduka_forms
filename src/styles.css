@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(55, 47, 47);
+  margin: 8rem;
+}
+input {
+  width: 20rem;
+  margin: 2rem 0;
+  display: block;
+}
+button {
+  display: block;
+}
