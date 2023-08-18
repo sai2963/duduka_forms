@@ -8,7 +8,17 @@
   </head>
   <body>
     <form action="" method="get">
-      <input type="text"  name="name">
+      <label for="user">Your Name</label>
+      <input type="text"  name="name" id="user">
+      <label for="user-email">Your Email</label>
+      <input type="email"  name="email" id="user-email">
+      <label for="user-passkey">Your Password</label>
+      <input type="password"  name="password" id="user-passkey">
+      <label for="user-age">Your Age</label>
+      <input type="number" step="1" max="100" min="0" name="age" id="user-age">
+      <label for="today-date">Date Of Birth</label>
+      <input type="date"  name="Date" id="today-date">
+      
       <button>Submit</button>
     </form>
   </body>

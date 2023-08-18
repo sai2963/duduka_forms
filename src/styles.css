@@ -1,12 +1,39 @@
 body {
   background-color: rgb(55, 47, 47);
   margin: 8rem;
+  font: normal 1.5rem sans-serif;
+}
+form{
+  width: 30rem;
+  margin: 3rem auto;
+  padding: 1rem;
+  border-radius: 0.375rem; 
+  background-color: beige;
+
 }
 input {
-  width: 20rem;
-  margin: 2rem 0;
+  width: 100%;
+  margin: 1rem 0;
+  margin-top: 0.5rem;
   display: block;
+  box-sizing: border-box;
+  font: inherit;
+}
+input:focus{
+background-color: rgb(198, 162, 233);
 }
 button {
   display: block;
+  font: inherit;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  background-color: rgb(123, 46, 195);
+  cursor: pointer;
+  border: 0.22rem solid rgb(120, 26, 154);
+  color: aliceblue;
+}
+button:hover{
+  background-color: rgb(185, 25, 185);
+  
+
 }
