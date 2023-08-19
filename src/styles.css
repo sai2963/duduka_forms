@@ -2,16 +2,26 @@ body {
   background-color: rgb(55, 47, 47);
   margin: 8rem;
   font: normal 1.5rem sans-serif;
+  list-style: none;
 }
 form{
-  width: 30rem;
+  width: 50rem;
   margin: 3rem auto;
   padding: 1rem;
   border-radius: 0.375rem; 
   background-color: beige;
+  list-style: none;
 
 }
-input,textarea {
+form ul{
+  list-style: none;
+}
+form header{
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+input,textarea,select {
   width: 100%;
   margin: 1rem 0;
   margin-top: 0.5rem;
@@ -19,7 +29,7 @@ input,textarea {
   box-sizing: border-box;
   font: inherit;
 }
-input ,textarea:focus{
+input :focus,textarea:focus{
 background-color: rgb(198, 162, 233);
 }
 button {
