@@ -7,7 +7,7 @@
     <title>HTML FORMS</title>
   </head>
   <body>
-    <form action="" method="get">
+    <form action="" method="get" >
       <header>
         <h1>Demo Form</h1>
       </header>
@@ -18,19 +18,19 @@
             <h2>Your Details</h2>
             <li>
               <label for="user">Your Name</label>
-              <input type="text" name="name" id="user" />
+              <input type="text" name="name" id="user" required placeholder="Your Name"/>
             </li>
             <li>
               <label for="user-email">Your Email</label>
-              <input type="email" name="email" id="user-email" />
+              <input type="email" name="email" id="user-email" required placeholder="Your Email"/>
             </li>
             <li>
               <label for="user-phone">Your Contact No</label>
-              <input type="number" step="No" name="Phone" id="user-phone" />
+              <input type="number" step="No" name="Phone" id="user-phone" required maxlength="10"/>
             </li>
             <li>
               <label for="user-passkey">Your Password</label>
-              <input type="password" name="password" id="user-passkey" />
+              <input type="password" name="password" id="user-passkey" required minlength="8"/>
             </li>
           
         </section>
@@ -165,7 +165,7 @@
         </section><br>
         <section class="submit">
           <button type="reset">Reset</button>
-          <button type="button">Submit</button>
+          <button type="submit">Submit</button>
         </section>
         
       </main>

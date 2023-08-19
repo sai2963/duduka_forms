@@ -28,8 +28,9 @@ input,textarea,select {
   display: block;
   box-sizing: border-box;
   font: inherit;
+  resize: vertical;
 }
-input :focus,textarea:focus{
+input:focus,textarea:focus{
 background-color: rgb(198, 162, 233);
 }
 button {
@@ -56,9 +57,10 @@ button:hover{
   width: auto;
   margin-right:1rem ;
 }
+
 .submit{
   display: flex;
-  
+ 
   align-items: center;
   flex-direction: row;
   gap: 2rem;
