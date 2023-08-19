@@ -9,16 +9,55 @@
   <body>
     <form action="" method="get">
       <label for="user">Your Name</label>
-      <input type="text"  name="name" id="user">
+      <input type="text" name="name" id="user" />
       <label for="user-email">Your Email</label>
-      <input type="email"  name="email" id="user-email">
+      <input type="email" name="email" id="user-email" />
       <label for="user-passkey">Your Password</label>
-      <input type="password"  name="password" id="user-passkey">
+      <input type="password" name="password" id="user-passkey" />
       <label for="user-age">Your Age</label>
-      <input type="number" step="1" max="100" min="0" name="age" id="user-age">
+      <input
+        type="number"
+        step="1"
+        max="100"
+        min="0"
+        name="age"
+        id="user-age"
+      />
       <label for="today-date">Date Of Birth</label>
-      <input type="date"  name="Date" id="today-date">
-      
+      <input type="date" name="Date" id="today-date" />
+      <hr />
+      <h2>How Should We Verify Your Account</h2>
+      <div id="radio-btn">
+        <input type="radio" name="Verify" id="radio-btn1" value="email" />
+        <label for="redio-btn1">via an email</label>
+      </div>
+      <div id="radio-btn">
+        <input type="radio" name="Verify" id="radio-btn2" value="phone" />
+        <label for="redio-btn2">via a phone call</label>
+      </div>
+      <div id="radio-btn">
+        <input type="radio" name="Verify" id="radio-btn3" value="text-msg" />
+        <label for="radio-btn3">via a text msg</label>
+      </div>
+      <h3>Terms</h3>
+      <div id="radio-btn">
+        <input type="checkbox" id="term" name="terms" >
+        <label for="term"> Agree for Terms</label>
+      </div>
+      <h3>Contact </h3>
+      <div id="radio-btn">
+        <input type="checkbox" id="contacts1" name="contact" value="phone" >
+        <label for="contacts1"> Phone</label>
+      </div>
+      <div id="radio-btn">
+        <input type="checkbox" id="contacts2" name="contact" value="email" >
+        <label for="contacts2"> Email</label>
+      </div>
+      <div>
+        <label for="comment">Your Message</label>
+        <textarea name="comments" id="comment" cols="30" rows="10"></textarea>
+      </div>
+
       <button>Submit</button>
     </form>
   </body>

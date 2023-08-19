@@ -11,7 +11,7 @@ form{
   background-color: beige;
 
 }
-input {
+input,textarea {
   width: 100%;
   margin: 1rem 0;
   margin-top: 0.5rem;
@@ -19,7 +19,7 @@ input {
   box-sizing: border-box;
   font: inherit;
 }
-input:focus{
+input ,textarea:focus{
 background-color: rgb(198, 162, 233);
 }
 button {
@@ -36,4 +36,12 @@ button:hover{
   background-color: rgb(185, 25, 185);
   
 
+}
+#radio-btn{
+  display: flex;
+
+}
+#radio-btn input{
+  width: auto;
+  margin-right:1rem ;
 }
