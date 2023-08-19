@@ -13,8 +13,9 @@
       </header>
       <main>
         <section>
-          <h2>Your Details</h2>
-          <ul>
+          
+          
+            <h2>Your Details</h2>
             <li>
               <label for="user">Your Name</label>
               <input type="text" name="name" id="user" />
@@ -31,12 +32,12 @@
               <label for="user-passkey">Your Password</label>
               <input type="password" name="password" id="user-passkey" />
             </li>
-          </ul>
+          
         </section>
 
         <section>
           <h2>More Details</h2>
-          <ul>
+          
             <li>
               <label for="user-age">Your Age</label>
               <input
@@ -52,11 +53,11 @@
               <label for="Birth-date">Date Of Birth</label>
               <input type="date" name="DOB" id="Birth-date" />
             </li>
-          </ul>
+          
         </section>
 
         <section>
-          <ul>
+          
             <li><label for="selects">Course Intrested in</label></li>
             <li>
               <select name="course" id="selects">
@@ -66,12 +67,12 @@
                 <option value="python">Python</option>
               </select>
             </li>
-          </ul>
+          
         </section>
 
         <section>
-          <ul>
-            <h2>How Should We Verify Your Account</h2>
+          
+            <h3>How Should We Verify Your Account</h3>
             <li>
               <div id="radio-btn">
                 <input
@@ -105,12 +106,12 @@
                 <label for="radio-btn3">via a text msg</label>
               </div>
             </li>
-          </ul>
+          
         </section>
 
         <section>
-          <ul>
-            <h3>Contact</h3>
+          
+            <h3>Contact Me On</h3>
             <li>
               <div id="radio-btn">
                 <input
@@ -133,38 +134,40 @@
                 <label for="contacts2"> Email</label>
               </div>
             </li>
-          </ul>
+          
         </section>
         <section>
-          <ul>
-            <h3>Terms</h3>
+          
+            
             <li>
+              <h3>Terms</h3>
               <div id="radio-btn">
                 <input type="checkbox" id="term" name="terms" />
                 <label for="term"> Agree for Terms</label>
               </div>
             </li>
-          </ul>
-        </section>
+          
+        </section><br>
         <section>
-          <div>
-            <ul>
+        
+            
               <li>
                 <label for="comment">Your Message</label>
-              </li>
-              <li>
+              
                 <textarea
                   name="comments"
                   id="comment"
-                  cols="30"
-                  rows="10"
-                ></textarea>
+                  cols="50"
+                  rows="5"></textarea>
               </li>
-            </ul>
-          </div>
+            
+          
+        </section><br>
+        <section class="submit">
+          <button type="reset">Reset</button>
+          <button type="button">Submit</button>
         </section>
-
-        <button>Submit</button>
+        
       </main>
     </form>
   </body>

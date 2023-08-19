@@ -5,15 +5,15 @@ body {
   list-style: none;
 }
 form{
-  width: 50rem;
+  width: 40rem;
   margin: 3rem auto;
   padding: 1rem;
   border-radius: 0.375rem; 
-  background-color: beige;
+  background-color:white;
   list-style: none;
 
 }
-form ul{
+form li{
   list-style: none;
 }
 form header{
@@ -41,6 +41,7 @@ button {
   cursor: pointer;
   border: 0.22rem solid rgb(120, 26, 154);
   color: aliceblue;
+
 }
 button:hover{
   background-color: rgb(185, 25, 185);
@@ -49,9 +50,16 @@ button:hover{
 }
 #radio-btn{
   display: flex;
-
+  
 }
 #radio-btn input{
   width: auto;
   margin-right:1rem ;
+}
+.submit{
+  display: flex;
+  
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
 }
